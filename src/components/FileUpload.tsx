@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { Upload, FileSpreadsheet, AlertCircle, CheckCircle } from 'lucide-react';
+import { Upload, FileSpreadsheet, CircleAlert as AlertCircle, CircleCheck as CheckCircle } from 'lucide-react';
 
 interface FileUploadProps {
   onFileSelect: (file: File) => void;

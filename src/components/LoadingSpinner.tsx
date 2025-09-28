@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader2, Package, Route, Calculator } from 'lucide-react';
+import { Loader as Loader2, Package, Route, Calculator } from 'lucide-react';
 
 interface LoadingSpinnerProps {
   progress: number;
